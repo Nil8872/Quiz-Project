@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+ 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62%;
+    font-family: 'Roboto Condensed', sans-serif;}
+.container{
+height: 100vh;
+width: 100vw;
+background: rgb(218 255 255);
+    display: flex;
+}
+
+.question-box{
+    border:6px solid white;
+    margin:auto;
+    background-color: #dfe6e9;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(45, 46, 46, 0.45);
+}
+.question-box .question{
+    font-size: 5rem;
+    margin: 5rem 4rem;
+     
+}
+
+.question-box .option{
+    font-size: 4rem;
+    padding:0rem 4rem;
+}
+.question-box .option:last-child{
+    margin-bottom: 2rem;
+}
+/* Increase radio button's size */
+input[type='radio']{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.submit{
+    font-size:5rem;
+    display: flex;
+}
+.btn{
+    margin: auto;
+    border:none;
+    background-color: red ;
+    border-radius:2rem;
+    padding: 1rem 3rem;
+    margin-bottom:3rem;
+    margin-top : 3rem;
+    transition: all 0.3 ease;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(246, 94, 94);
+
+}
+.hidden{
+    display: none !important;
+}
+.dynamicButton{
+      
+    font-size:5rem;
+    margin: 0 5rem 4rem 5rem;
+    box-shadow: 0 0 20px rgba(45, 46, 46, 0.45);
+    border: 2px solid blue;
+    border-radius: 1rem;
+    background-color: rgb(134 197 129);
+    border:6px solid white;
+}
+.dynamicButton h2{
+    font-size: 5rem;
+    text-align: center;
+}
+.centerBTN{
+    display: flex;
+}
+ 
